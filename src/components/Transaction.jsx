@@ -71,6 +71,9 @@ export default function TransactionComponent() {
       setAmount("");
     } catch (error) {
       toast.error(`Transaction failed. ${error.message}`);
+      setTimeout(() => {
+        toast.error("Please ensure you are connected to Devnet on both.");
+      }, 2000); 
       console.error(error);
     } finally {
       setLoading(false);

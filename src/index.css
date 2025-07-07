@@ -118,3 +118,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+@media (min-width: 640px) {
+  .custom-wallet-buttons .wallet-adapter-button {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.75rem;
+    max-width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

@@ -61,6 +61,17 @@ export const WalletConnect = () => {
               </div>
               <Transaction></Transaction>
             </div>
+            <p className="dark:text-white absolute py-4 left-1/2 -translate-x-1/2 font-semibold text-xs sm:text-sm md:text-base text-center">
+              Made by{" "}
+              <a
+                href="https://github.com/mdsaqlain1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold border-black hover:border-b-2 hover:cursor-pointer"
+              >
+                Mohammed Saqlain ➚
+              </a>
+            </p>
           </div>
           {/* Your app's components go here, nested within the context providers. */}
         </WalletModalProvider>
